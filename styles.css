@@ -1,0 +1,101 @@
+:root {
+	font-size: 15px;
+	--red: hsl(0, 78%, 62%);
+	--cyan: hsl(180, 62%, 55%);
+	--orange: hsl(34, 97%, 64%);
+	--blue: hsl(212, 86%, 64%);
+	--dark-blue: hsl(234, 12%, 34%);
+	--gray-blue: hsl(229, 6%, 66%);
+	--light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
+	background-color: var(--light-gray);
+	color: var(--gray-blue);
+	text-align: center;
+	width: min(320px, 90%);
+	margin: 50px auto;
+}
+
+.heading {
+	font-size: 1.5rem;
+	color: var(--dark-blue);
+	font-weight: 200;
+}
+
+.bold-lg {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: var(--dark-blue);
+	margin-top: 5px;
+}
+
+p {
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: fit-content;
+	margin: 60px auto;
+}
+
+.box .bold-sm {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: var(--dark-blue);
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.box {
+	background-color: var(--light-gray);
+	box-shadow: 4px 4px 12px var(--gray-blue);
+	text-align: left;
+	padding: 20px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.box p {
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+.box img {
+	float: right;
+	margin-bottom: 20px;
+}
+
+.one {
+	border-top: 5px solid var(--cyan);
+}
+
+.two {
+	border-top: 5px solid var(--red);
+}
+
+.three {
+	border-top: 5px solid var(--orange);
+}
+
+.four {
+	border-top: 5px solid var(--blue);
+}
