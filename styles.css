@@ -134,6 +134,10 @@ p {
 		grid-row: 2 / 4;
 	}
 
+	.box {
+		padding-right: 2rem;
+	}
+
 	#description {
 		max-width: 35rem;
 		margin: 1rem auto;
